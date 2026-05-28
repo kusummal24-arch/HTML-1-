@@ -1,0 +1,20 @@
+/* ========================= */
+/* script.js */
+/* ========================= */
+
+// Form ko select kiya
+const form = document.getElementById("loginForm");
+
+// Success text ko select kiya
+const successText = document.getElementById("successText");
+
+// Form submit event
+form.addEventListener("submit", function(event){
+
+    // Page reload rokne ke liye
+    event.preventDefault();
+
+    // Success message show hoga
+    successText.innerText = "Login Successful 🚀";
+
+});
