@@ -1,0 +1,94 @@
+<!-- ========================= -->
+<!-- index.html -->
+<!-- ========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Website Title -->
+  <title>AI Login Form</title>
+
+  <!-- CSS File Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Robot Section -->
+    <div class="robot">
+      🤖
+    </div>
+
+    <!-- Title -->
+    <h1>AI LOGIN FORM</h1>
+
+    <!-- Form Start -->
+    <form id="loginForm">
+
+      <!-- Name -->
+      <div class="input-box">
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+      </div>
+
+      <!-- Mother Name -->
+      <div class="input-box">
+        <label>Mother Name</label>
+        <input type="text" placeholder="Enter mother name" required>
+      </div>
+
+      <!-- Mobile -->
+      <div class="input-box">
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number" required>
+      </div>
+
+      <!-- Email -->
+      <div class="input-box">
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required>
+      </div>
+
+      <!-- Password -->
+      <div class="input-box">
+        <label>Password</label>
+        <input type="password" placeholder="Enter password" required>
+      </div>
+
+      <!-- Gender -->
+      <div class="gender-box">
+
+        <label>
+          <input type="radio" name="gender">
+          Male
+        </label>
+
+        <label>
+          <input type="radio" name="gender">
+          Female
+        </label>
+
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit">
+        LOGIN
+      </button>
+
+    </form>
+
+    <!-- Success Message -->
+    <p id="successText"></p>
+
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>
